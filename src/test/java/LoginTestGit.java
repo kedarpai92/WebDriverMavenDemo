@@ -23,7 +23,7 @@ public class LoginTestGit {
 		
 		driver.findElement(By.id("login1")).sendKeys("dummyuser");
 		driver.findElement(By.id("password")).sendKeys("pass123");
-		
+		driver.findElement(By.xpath("/html/body/div/div[1]/div[1]/div[2]/form/div[1]/div[2]/div[2]/div[2]/input[2]")).click();
 		
 		
 	}
